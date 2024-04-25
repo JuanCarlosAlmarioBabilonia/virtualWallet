@@ -9,17 +9,15 @@
 header{
     display:flex;
     justify-content: space-between;
+    padding: 20px;
     /* background-color: rosybrown; */
 }
 body{
-    padding:20px;
     background-image: url(/storage/imgs/fondo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position:relative
 }
-
-
 
 .header img{
     width:8%
@@ -41,7 +39,7 @@ body{
 }
 
 .main{
-    margin-top: 7vh;
+    padding: 20px;
     /* background-color: olive; */
 }
 
@@ -102,4 +100,9 @@ body{
 .right p,
 .right h2{
     margin-left: 3vw;
+}
+
+.act_tra{
+    border:1px solid black;
+    margin-top: 5vh;
 }
