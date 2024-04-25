@@ -1,3 +1,5 @@
+@import url(variables.css);
+
 *{
     margin:0;
     padding: 0;
@@ -14,7 +16,11 @@ body{
     background-image: url(/storage/imgs/fondo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position:relative
 }
+
+
+
 .header img{
     width:8%
 }
@@ -27,6 +33,7 @@ body{
 .titulo p{
     margin-left: 2.5vw;
     color: white;
+    font-family: "basic_text";
 }
 
 .titulo img{
@@ -34,11 +41,65 @@ body{
 }
 
 .main{
-    margin-top: 9vh;
+    margin-top: 7vh;
     /* background-color: olive; */
 }
 
-.main h1{
-    font-size: 4.8vh;
+.titulo1 h1{
+    font-size: 5.2vh;
     color: white;
+    font-family: "Main_title";
+}
+
+.titulo2 h1{
+    font-size: 5.2vh;
+    color: white;
+    font-family: "Main_title2";
+}
+
+.cont_stad{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    gap:19vw;
+    /* border: 1px solid black; */
+}
+
+.right{
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    margin-left: -9vw;
+}
+
+.left{
+    /* border: 1px solid black; */
+    flex-grow: 1;
+}
+
+.left p,
+.right p{
+    font-family: "Main_title3";
+    color: white;
+}
+
+.left h2,
+.right h2{
+    font-family: "basic_text";
+    color: white;
+}
+
+.left span,
+.right span{
+    font-size: 2.5vh;
+}
+
+.rw {
+    height: 1vh;
+    z-index: 1;
+    position: absolute;
+}
+
+.right p,
+.right h2{
+    margin-left: 3vw;
 }
