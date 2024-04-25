@@ -7,11 +7,13 @@
 header{
     display:flex;
     justify-content: space-between;
-    border:1px solid black;
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
 }
 body{
     padding:20px;
+    background-image: url(/storage/imgs/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header img{
     width:8%
@@ -24,18 +26,19 @@ body{
 
 .titulo p{
     margin-left: 2.5vw;
+    color: white;
 }
 
 .titulo img{
-    width:30%
+    width:30%;
 }
 
 .main{
-    margin-top: 7vh;
-    border:1px solid black;
-    background-color: olive;
+    margin-top: 9vh;
+    /* background-color: olive; */
 }
 
 .main h1{
     font-size: 4.8vh;
+    color: white;
 }
