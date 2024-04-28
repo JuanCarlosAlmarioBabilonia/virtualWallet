@@ -117,10 +117,10 @@ body{
 
 .act_tra{
     /* border:1px solid black; */
-    padding:3vh;
+    padding-left:5vw;
     padding-top: 5vh;
     margin-top: 3vh;
-    height:65vh;
+    height:100%;
     width:100%;
     background-color: #cfebff;
     border-top-left-radius: 5vh;
@@ -169,6 +169,7 @@ body{
 .activities h4{
     font-family: "basic_text";
     font-size: 5.5vw;
+    padding-left: 1vw;
 }
 
 .footer{
@@ -207,6 +208,7 @@ body{
     font-family: "basic_text";
     font-size: 5.5vw;
     margin-top: 3vh;
+    padding-left: 1vw;
 }
 
 .cont_trans{
@@ -226,6 +228,7 @@ body{
     justify-content: space-between;
     flex-direction: row;
     margin-bottom: 2vh;
+    width: 88vw
 }
 
 .top img{
