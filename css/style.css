@@ -19,7 +19,7 @@ body{
 }
 
 .header img{
-    width:4vh
+    width:8vw
 }
 
 .titulo{
@@ -28,13 +28,14 @@ body{
 }
 
 .titulo p{
+    font-size: 4vw;
     margin-left: 2.5vw;
     color: white;
     font-family: "basic_text";
 }
 
 .titulo img{
-    width:4vh;
+    width:8vw;
 }
 
 .main{
@@ -43,13 +44,13 @@ body{
 }
 
 .titulo1 h1{
-    font-size: 5.2vh;
+    font-size: 8.5vw;
     color: white;
     font-family: "Main_title";
 }
 
 .titulo2 h1{
-    font-size: 4.9vh;
+    font-size: 8.5vw;
     color: white;
     font-family: "Main_title2";
     font-weight: lighter;
@@ -76,12 +77,14 @@ body{
 
 .left p,
 .right p{
-    font-family: "Main_title3";
+    font-size: 4vw;
+    font-family: "Main_title2";
     color: white;
 }
 
 .left h2,
 .right h2{
+    font-size: 6vw;
     font-family: "basic_text";
     color: white;
     margin-top: 0.5vh;
@@ -93,14 +96,14 @@ body{
 }
 
 .rw {
-    height: 0.98vh;
+    height: 1.6vw;
     margin-top: 1vh;
     z-index: 1;
     position: absolute;
 }
 
 .rw2 {
-    height: 0.98vh;
+    height: 1.6vw;
     margin-top: 1vh;
     margin-left: 2vw;
     z-index: 1;
@@ -118,6 +121,7 @@ body{
     padding-top: 5vh;
     margin-top: 3vh;
     height:65vh;
+    width:100%;
     background-color: #cfebff;
     border-top-left-radius: 5vh;
     border-top-right-radius: 5vh;
@@ -126,36 +130,45 @@ body{
 .slider{
     /* border:1px solid black; */
     padding:1vh;
+    width:90vw;
     display:flex;
     gap:5vw;
     margin-top: 1vh;
+    overflow-x: scroll;
 }
 
 .cont{
     /* border:1px solid black; */
-    padding:3vh;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2.5vw;
+    padding-left: 2.5vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
     background-color: white;
     border-radius: 2vh;
     box-shadow: -1px 1px 10px 0px #324172;
-    width:20vh
 }
 
-.cont img{
+.slider img{
     /* border:1px solid black; */
-    margin-left: 2vw;
+    display: flex;
+    margin: 0 auto;
+    height: 10vw;
 }
 
 .cont p{
+    font-size: 4vw;
     text-align: center;
     font-family: "basic_text";
+    margin-top: 2vh;
     font-weight: lighter;
+    width: 20vw;
 }
 
 .activities h4{
     font-family: "basic_text";
-    font-size: 3vh;
+    font-size: 5.5vw;
 }
 
 .footer{
@@ -163,7 +176,7 @@ body{
     background-color:#324172;
     position:fixed;
     bottom:0vh;
-    width:60vh;
+    width:100%;
     padding-top: 1vh;
     padding-bottom: 2vh;
 }
@@ -172,7 +185,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: -2vh;
     padding:1vh;
     /* border: 1px solid black */
 }
@@ -188,34 +200,84 @@ body{
 
 .footer_ul li a img{
     object-fit: contain;
-    height:5vh
+    height:10vw
 }
 
 .transactions h4{
     font-family: "basic_text";
-    font-size: 3vh;
+    font-size: 5.5vw;
     margin-top: 3vh;
 }
 
 .cont_trans{
     display:flex;
+    flex-direction: column;
     margin-top: 3vh;
     /* border: 1px solid black; */
 }
 
+.bottom{
+    margin-top: 3vh;
+    overflow-y: scroll;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 2vh;
+}
+
 .top img{
-    height:5.5vh
+    height:12vw
 }
 
 .text1_top{
     margin-left: 2vw;
     width:35vw;
+    /* border: 1px solid blue; */
+}
+
+.text2_top{
+    margin-left: 2vw;
+    width:15vw;
+    /* border: 1px solid blue; */
 }
 
 .text1_top p{
-    font-family: "basic_text";
+    font-size: 4vw;
+    font-family: "basic_text"
 }
+
+.text2_top p{
+    font-size: 4vw;
+    font-family: "basic_text";
+    display: flex;
+    justify-content: end;
+}
+
+.text2_top small{
+    display: flex;
+    padding-top:0.3vh;
+    justify-content: end;
+    font-family: "Main_title2";
+    font-size: 3vw;
+    color: #324172
+}
+
+.text1_top small{
+    display: flex;
+    padding-top:0.3vh;
+    justify-content: start;
+    font-family: "Main_title2";
+    font-size: 3vw;
+    color: #324172
+}
+
 .texts{
-    border:1px solid black;
     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1vh;
+    width:80vw
 }
