@@ -38,7 +38,7 @@ body{
     width:8vw;
 }
 
-.main{
+.olap{
     padding: 3vh;
     /* background-color: olive; */
 }
@@ -118,6 +118,7 @@ body{
 .act_tra{
     /* border:1px solid black; */
     padding-left:5vw;
+    padding-bottom: 20vw;
     padding-top: 5vh;
     margin-top: 3vh;
     height:100%;
@@ -132,6 +133,7 @@ body{
     padding:1vh;
     width:90vw;
     display:flex;
+    flex-direction: row;
     gap:5vw;
     margin-top: 1vh;
     overflow-x: scroll;
@@ -145,7 +147,7 @@ body{
     padding-left: 2.5vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    background-color: white;
+    background-color:white;
     border-radius: 2vh;
     box-shadow: -1px 1px 10px 0px #324172;
 }
@@ -204,10 +206,34 @@ body{
     height:10vw
 }
 
+.footer_uli{
+    display: flex;
+    padding-right: 2vw;
+    gap:21vw;
+    align-items: center;
+    /* border: 1px solid black */
+}
+
+.footer_uli li{
+    list-style: none;
+
+}
+
+.footer_uli li a{
+    display:flex
+}
+
+.footer_uli li a img{
+    object-fit: contain;
+    height:3vw
+}
+
+
 .transactions h4{
     font-family: "basic_text";
     font-size: 5.5vw;
-    margin-top: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
     padding-left: 1vw;
 }
 
@@ -220,15 +246,25 @@ body{
 
 .bottom{
     margin-top: 3vh;
+    width:90vw;
+    height:90vw;
     overflow-y: scroll;
+}
+
+.oli{
+    display: flex;
+    flex-direction: row;
+}
+
+.bye{
+    display: flex;
+    flex-direction: column;
 }
 
 .first{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    margin-bottom: 2vh;
-    width: 88vw
+    padding-bottom: 1.5vh;
 }
 
 .top img{
@@ -283,4 +319,14 @@ body{
     justify-content: space-between;
     margin-top: 1vh;
     width:80vw
+}
+
+.point img{
+    position: absolute;
+    right: 12.5vw;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
 }
