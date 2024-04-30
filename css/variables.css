@@ -1,3 +1,11 @@
+:root{
+    --color-1: #005227;
+    --color-2: #038554;
+    --color-3: #03bb85;
+    --color-4: #68ddbd;
+    --color-5: #adffe1;
+}
+
 @font-face{
     font-family: "basic_text";
     src: url("/storage/fonts/SF-Pro-Text-Bold.otf");
@@ -12,6 +20,7 @@
     font-family: "Main_title2";
     src: url("/storage/fonts/SF-Pro-Text-Regular.otf");
 }
+
 
 
 

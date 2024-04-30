@@ -18,6 +18,7 @@ body{
     background-size: cover;
 }
 
+
 .header img{
     width:8vw
 }
@@ -123,9 +124,11 @@ body{
     margin-top: 3vh;
     height:100%;
     width:100%;
-    background-color: #cfebff;
+    opacity:1;
     border-top-left-radius: 5vh;
     border-top-right-radius: 5vh;
+    box-shadow: 1px 8px 50px 15px var(--color-5);
+    background: rgb(255, 255, 255);
 }
 
 .slider{
@@ -147,9 +150,10 @@ body{
     padding-left: 2.5vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    background-color:white;
+    background: var(--color-5);
+    backdrop-filter: blur(3vw);
     border-radius: 2vh;
-    box-shadow: -1px 1px 10px 0px #324172;
+    box-shadow: -1px 1px 10px 0px var(--color-5);
 }
 
 .slider img{
@@ -172,16 +176,18 @@ body{
     font-family: "basic_text";
     font-size: 5.5vw;
     padding-left: 1vw;
+    color: var(--color-1)
 }
 
 .footer{
     /* border: 1px solid black; */
-    background-color:#324172;
+    background-color:var(--color-4);
     position:fixed;
     bottom:0vh;
     width:100%;
     padding-top: 1vh;
     padding-bottom: 2vh;
+
 }
 
 .footer_ul{
@@ -209,7 +215,7 @@ body{
 .footer_uli{
     display: flex;
     padding-right: 2vw;
-    gap:21vw;
+    gap:21.1vw;
     align-items: center;
     /* border: 1px solid black */
 }
@@ -225,7 +231,7 @@ body{
 
 .footer_uli li a img{
     object-fit: contain;
-    height:3vw
+    height:2vw
 }
 
 
@@ -235,6 +241,7 @@ body{
     padding-top: 1vh;
     padding-bottom: 2vh;
     padding-left: 1vw;
+    color: var(--color-1)
 }
 
 .cont_trans{
@@ -285,12 +292,14 @@ body{
 
 .text1_top p{
     font-size: 4vw;
-    font-family: "basic_text"
+    font-family: "basic_text";
+    color: var(--color-2)
 }
 
 .text2_top p{
     font-size: 4vw;
     font-family: "basic_text";
+    color:var(--color-2);
     display: flex;
     justify-content: end;
 }
@@ -301,7 +310,7 @@ body{
     justify-content: end;
     font-family: "Main_title2";
     font-size: 3vw;
-    color: #324172
+    color: black
 }
 
 .text1_top small{
@@ -310,7 +319,7 @@ body{
     justify-content: start;
     font-family: "Main_title2";
     font-size: 3vw;
-    color: #324172
+    color: black
 }
 
 .texts{
@@ -321,12 +330,4 @@ body{
     width:80vw
 }
 
-.point img{
-    position: absolute;
-    right: 12.5vw;
-}
 
-li{
-    display: flex;
-    flex-direction: column;
-}
