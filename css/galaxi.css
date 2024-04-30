@@ -291,3 +291,8 @@ header{
  .abajo img{
     height: 7vw
  }
+
+ .cont2 .abajo img{
+    height:10vw;
+    margin-top:-1vw
+ }
