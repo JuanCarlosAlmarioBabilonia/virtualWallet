@@ -165,3 +165,129 @@ header{
     height:2vw
 }
 
+.cards{
+    /* border:1px solid black; */
+    padding-left:5vw;
+    padding-bottom: 20vw;
+    padding-top: 2vw;
+    margin-top: 3vh;
+    height:100%;
+    width:100%;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+}
+
+.slider{
+    /* border:1px solid black; */
+    padding:1vh;
+    width:90vw;
+    display:flex;
+    flex-direction: row;
+    gap:5vw;
+    margin-top: 1vh;
+    overflow-x: scroll;
+}
+
+.cont{
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    color: white;
+    padding-bottom: 5vh;
+    background-image: url(/storage/imgs/fondo1.jpg);
+    background-size: contain;
+    border-radius: 2vh;
+    height:70vw;
+    box-shadow: -1px 1px 10px 0px var(--color-1);
+}
+
+.cont2{
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color:white;
+    background-image: url(/storage/imgs/footer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2vh;
+    height:70vw;
+    box-shadow: -1px 1px 10px 0px var(--color-4);
+}
+
+.slider img{
+    /* border:1px solid black; */
+    display: flex;
+    margin: 0 auto;
+    height: 10vw;
+}
+
+.cont p{
+    font-size: 4vw;
+    text-align: center;
+    font-family: "basic_text";
+    margin-top: 2vh;
+    font-weight: lighter;
+    width: 20vw;
+}
+
+.cont2 p{
+    font-size: 4vw;
+    text-align: center;
+    font-family: "basic_text";
+    margin-top: 2vh;
+    font-weight: lighter;
+    width: 20vw;
+}
+
+.activities h4{
+    font-family: "basic_text";
+    font-size: 5.5vw;
+    padding-left: 1vw;
+    color: var(--color-1)
+}
+
+.arriba {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -2vw;
+    padding-left: 6vw;
+    padding-right: 4vw;
+    gap:12vw;
+}
+ .arriba p{
+    margin-top: 0vw;
+    font-size: 3.5vw;
+ }
+
+.arriba img{
+     height:7vw
+}
+
+ .medio{
+    display: flex;
+    justify-content: center;
+    margin-top: 12vw;
+ }
+
+ .medio p{
+    font-size: 6.5vw;
+    width:100%;
+ }
+
+ .medio span{
+    font-size: 4.5vw;
+ }
+
+ .abajo{
+    display: flex;
+    margin-top: 19vw;
+    margin-right: 28vw;
+ }
+
+ .abajo img{
+    height: 7vw
+ }
