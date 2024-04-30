@@ -48,6 +48,7 @@ header{
 
 .pigcuadro{
     background-image: url(/storage/imgs/fondo1.jpg);
+    background-size: contain;
     border-radius: 5vw;
     margin-top: 7vw;
     margin-right: 5vw;
