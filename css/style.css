@@ -9,7 +9,7 @@
 header{
     display:flex;
     justify-content: space-between;
-    padding: 2vh;
+    padding: 4vw;
     /* background-color: rosybrown; */
 }
 body{
@@ -41,7 +41,7 @@ body{
 }
 
 .olap{
-    padding: 3vh;
+    padding: 6vw;
     /* background-color: olive; */
 }
 
@@ -61,7 +61,7 @@ body{
 .cont_stad{
     display:flex;
     justify-content: space-between;
-    margin-top: 3vh;
+    margin-top: 6vw;
     gap:19vw;
     /* border: 1px solid black; */
 }
@@ -89,24 +89,24 @@ body{
     font-size: 6vw;
     font-family: "basic_text";
     color: white;
-    margin-top: 0.5vh;
+    margin-top: 1vw;
 }
 
 .left span,
 .right span{
-    font-size: 2vh;
+    font-size: 4vw;
 }
 
 .rw {
     height: 1.6vw;
-    margin-top: 1vh;
+    margin-top: 2vw;
     z-index: 1;
     position: absolute;
 }
 
 .rw2 {
     height: 1.6vw;
-    margin-top: 1vh;
+    margin-top: 2vw;
     margin-left: 2vw;
     z-index: 1;
     position: absolute;
@@ -121,25 +121,25 @@ body{
     /* border:1px solid black; */
     padding-left:5vw;
     padding-bottom: 20vw;
-    padding-top: 5vh;
-    margin-top: 3vh;
+    padding-top: 10vw;
+    margin-top: 6vw;
     height:100%;
     width:100%;
     opacity:1;
-    border-top-left-radius: 5vh;
-    border-top-right-radius: 5vh;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
     box-shadow: 1px 8px 50px 15px var(--color-5);
     background: rgb(255, 255, 255);
 }
 
 .slider{
     /* border:1px solid black; */
-    padding:1vh;
+    padding:2vw;
     width:90vw;
     display:flex;
     flex-direction: row;
     gap:5vw;
-    margin-top: 1vh;
+    margin-top: 2vw;
     overflow-x: scroll;
 }
 
@@ -147,13 +147,13 @@ body{
     /* border:1px solid black; */
     display: flex;
     flex-direction: column;
-    padding-right: 2.5vw;
-    padding-left: 2.5vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-right: 2.7vw;
+    padding-left: 2.7vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
     background: var(--color-5);
     backdrop-filter: blur(3vw);
-    border-radius: 2vh;
+    border-radius: 4vw;
     box-shadow: -1px 1px 10px 0px var(--color-5);
 }
 
@@ -168,7 +168,7 @@ body{
     font-size: 4vw;
     text-align: center;
     font-family: "basic_text";
-    margin-top: 2vh;
+    margin-top: 4vw;
     font-weight: lighter;
     width: 20vw;
 }
@@ -184,10 +184,10 @@ body{
     /* border: 1px solid black; */
     background-color:var(--color-4);
     position:fixed;
-    bottom:0vh;
+    bottom:0vw;
     width:100%;
-    padding-top: 1vh;
-    padding-bottom: 2vh;
+    padding-top: 2vw;
+    padding-bottom: 4vw;
 
 }
 
@@ -195,7 +195,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding:1vh;
+    padding:2vw;
     /* border: 1px solid black */
 }
 
@@ -239,8 +239,8 @@ body{
 .transactions h4{
     font-family: "basic_text";
     font-size: 5.5vw;
-    padding-top: 1vh;
-    padding-bottom: 2vh;
+    padding-top: 2vw;
+    padding-bottom: 4vw;
     padding-left: 1vw;
     color: var(--color-1)
 }
@@ -248,12 +248,12 @@ body{
 .cont_trans{
     display:flex;
     flex-direction: column;
-    margin-top: 3vh;
+    margin-top: 6vw;
     /* border: 1px solid black; */
 }
 
 .bottom{
-    margin-top: 3vh;
+    margin-top: 4vw;
     width:90vw;
     height:90vw;
     overflow-y: scroll;
@@ -272,7 +272,7 @@ body{
 .first{
     display: flex;
     flex-direction: row;
-    padding-bottom: 1.5vh;
+    padding-bottom: 1vw;
 }
 
 .top img{
@@ -307,7 +307,7 @@ body{
 
 .text2_top small{
     display: flex;
-    padding-top:0.3vh;
+    padding-top:0.6vw;
     justify-content: end;
     font-family: "Main_title2";
     font-size: 3vw;
@@ -316,7 +316,7 @@ body{
 
 .text1_top small{
     display: flex;
-    padding-top:0.3vh;
+    padding-top:0.6vw;
     justify-content: start;
     font-family: "Main_title2";
     font-size: 3vw;
@@ -327,7 +327,7 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 1vh;
+    margin-top: 2vw;
     width:80vw
 }
 
