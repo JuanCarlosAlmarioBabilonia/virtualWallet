@@ -152,9 +152,25 @@ body{
     padding-top: 10vw;
     padding-bottom: 10vw;
     background: var(--color-5);
-    backdrop-filter: blur(3vw);
     border-radius: 4vw;
     box-shadow: -1px 1px 10px 0px var(--color-5);
+}
+
+.conti{
+    text-decoration: none;
+    color: black
+}
+
+.cont:hover{
+    p{
+        color: var(--color-2);
+        transition: all 0.5s
+    }
+    img{
+        height:15vw;
+        transition: all 0.5s
+    }
+
 }
 
 .slider img{
@@ -255,8 +271,12 @@ body{
 .bottom{
     margin-top: 4vw;
     width:90vw;
-    height:90vw;
+    height:125vw;
     overflow-y: scroll;
+}
+
+.hi{
+    text-decoration: none;
 }
 
 .oli{
@@ -275,13 +295,28 @@ body{
     padding-bottom: 1vw;
 }
 
+.first:hover{
+    img{
+        height:13vw;
+        transition: all 0.5s;
+    }
+    p{
+        font-size: 5vw;
+        transition: all 0.5s;
+    }
+    small{
+        font-size:3.7vw;
+        transition: all 0.5s;
+    }
+}
+
 .top img{
     height:12vw
 }
 
 .text1_top{
     margin-left: 2vw;
-    width:35vw;
+    width:45vw;
     /* border: 1px solid blue; */
 }
 
