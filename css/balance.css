@@ -93,6 +93,7 @@ header{
 }
 
 .box1{
+    border: 2px solid var(--color-1);
     background-color: var(--color-1);
     color: white
 }
@@ -216,4 +217,63 @@ header{
     font-size: 3.2vw;
     padding-bottom: 4.5vw;
     color: white
+}
+
+.ola:hover{
+    .circle{
+        box-shadow: -0.5px 1px 30px 10px var(--color-2);
+        transition: all 0.5s;
+        width:60vw;
+        margin-left:20vw;
+    }
+
+    .circle p{
+        font-size: 9vw;
+        transition: all 0.5s;
+    }
+}
+
+.a, 
+.b, 
+.c{
+    text-decoration: none;
+}
+
+.a:hover{
+    .box1{
+        box-shadow: -0.5px 1px 20px 10px var(--color-1);
+        transition: all 0.5s;
+    }
+
+    .box1 p{
+        font-family: "basic_text";
+        transition: all 0.5s;
+        font-size: 5vw;
+    }
+}
+
+.b:hover{
+    .box2{
+        box-shadow: -0.5px 1px 20px 10px var(--color-4);
+        transition: all 0.5s;
+    }
+
+    .box2 p{
+        font-family: "basic_text";
+        transition: all 0.5s;
+        font-size: 5vw;
+    }
+}
+
+.c:hover{
+    .box3{
+        box-shadow: -0.5px 1px 20px 10px gray;
+        transition: all 0.5s;
+    }
+
+    .box3 p{
+        font-family: "basic_text";
+        transition: all 0.5s;
+        font-size: 5vw;
+    }
 }
