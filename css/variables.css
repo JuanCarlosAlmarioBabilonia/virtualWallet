@@ -8,17 +8,17 @@
 
 @font-face{
     font-family: "basic_text";
-    src: url("/storage/fonts/SF-Pro-Text-Bold.otf");
+    src: url("storage/fonts/SF-Pro-Text-Bold.otf");
 }
 
 @font-face{
     font-family: "Main_title";
-    src: url("/storage/fonts/SF-Pro-Text-Heavy.otf");
+    src: url("storage/fonts/SF-Pro-Text-Heavy.otf");
 }
 
 @font-face{
     font-family: "Main_title2";
-    src: url("/storage/fonts/SF-Pro-Text-Regular.otf");
+    src: url("storage/fonts/SF-Pro-Text-Regular.otf");
 }
 
 
