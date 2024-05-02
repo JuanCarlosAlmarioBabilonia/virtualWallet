@@ -307,15 +307,8 @@ header{
  }
 
  .a:hover{
-    .cont{
-        transition: all 0.5s;
-        height:78vw
-    }
-    .cont img{
-        transition: all 0.5s;
-        height:10vw
-    }
-
+    transform: scale(1.02);
+    transition:0.5s ;
     .medio p{
         transition: all 0.5s;
         font-size: 7.5vw;
@@ -335,15 +328,8 @@ header{
  }
 
  .b:hover{
-    .cont2{
-        height:78vw;
-        transition: all 0.5s;
-    }
-    .cont2 img{
-        height:10vw;
-        transition: all 0.5s;
-    }
-
+    transform: scale(1.02);
+    transition:0.5s ;
     .medio p{
         font-size: 7.5vw;
         transition: all 0.5s;

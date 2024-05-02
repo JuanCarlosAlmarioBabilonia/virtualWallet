@@ -222,13 +222,16 @@ header{
 .ola:hover{
     .circle{
         box-shadow: -0.5px 1px 30px 10px var(--color-2);
+        transform: scale(1.02);
+        transition:0.5s ;
         width:60vw;
         margin-left:20vw;
     }
 
     .circle p{
         font-size: 9vw;
-        transition: all 0.5s;
+        transform: scale(1.02);
+        transition:0.5s ;
     }
 }
 
@@ -240,8 +243,9 @@ header{
 
 .a:hover{
     .box1{
+        transform: scale(1.02);
+        transition:0.5s ;
         box-shadow: -0.5px 1px 20px 10px var(--color-1);
-        transition: all 0.5s;
     }
 
     .box1 p{
@@ -253,8 +257,9 @@ header{
 
 .b:hover{
     .box2{
+        transform: scale(1.02);
+        transition:0.5s ;
         box-shadow: -0.5px 1px 20px 10px var(--color-4);
-        transition: all 0.5s;
     }
 
     .box2 p{
@@ -266,8 +271,9 @@ header{
 
 .c:hover{
     .box3{
+        transform: scale(1.02);
+        transition:0.5s ;
         box-shadow: -0.5px 1px 20px 10px gray;
-        transition: all 0.5s;
     }
 
     .box3 p{

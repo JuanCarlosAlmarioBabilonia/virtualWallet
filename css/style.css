@@ -164,16 +164,8 @@ body{
 .cont:hover{
     background-image: url("../storage/imgs/footer.jpeg");
     background-size: cover;
-    transition: all 0.5s ;
-    img{
-        height:15vw;
-        transition: all 0.5s;
-    }
-    p{
-        color: white;
-        transition: all 0.5s;
-        opacity:2
-    }
+    transform: scale(1.1);
+    transition:1s ;
 
 }
 
@@ -297,21 +289,12 @@ body{
     display: flex;
     flex-direction: row;
     padding-bottom: 1vw;
+    width:97%
 }
 
 .first:hover{
-    img{
-        height:13vw;
-        transition: all 0.5s;
-    }
-    p{
-        font-size: 5vw;
-        transition: all 0.5s;
-    }
-    small{
-        font-size:3.7vw;
-        transition: all 0.5s;
-    }
+    transform: scale(1.02);
+    transition:0.5s ;
 }
 
 .top img{
