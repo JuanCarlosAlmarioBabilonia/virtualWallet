@@ -9,7 +9,7 @@
 header{
     display:flex;
     justify-content: space-between;
-    background-image: url(/storage/imgs/fondo1.jpg);
+    background-image: url("../storage/imgs/fondo1.jpg");
     background-size: contain;
     margin-top: -47vw;
     padding-left: 4vw;
@@ -43,7 +43,7 @@ header{
 
 .circle{
     /* background-color: var(--color-2); */
-    background-image: url(/storage/imgs/footer.jpeg);
+    background-image: url("../storage/imgs/footer.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     margin-top:-40vw;
@@ -170,7 +170,7 @@ header{
 }
 
 .pigcuadro{
-    background-image: url(/storage/imgs/footer.jpeg);
+    background-image: url("../storage/imgs/footer.jpeg");
     background-size: cover;
     margin-top: 7vw;
     margin-bottom: 15vw;
@@ -222,7 +222,6 @@ header{
 .ola:hover{
     .circle{
         box-shadow: -0.5px 1px 30px 10px var(--color-2);
-        transition: all 0.5s;
         width:60vw;
         margin-left:20vw;
     }

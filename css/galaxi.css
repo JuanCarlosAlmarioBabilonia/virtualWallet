@@ -47,7 +47,7 @@ header{
 }
 
 .pigcuadro{
-    background-image: url(/storage/imgs/fondo1.jpg);
+    background-image: url("../storage/imgs/fondo1.jpg");
     background-size: contain;
     border-radius: 5vw;
     margin-top: 7vw;
@@ -195,8 +195,9 @@ header{
     flex-direction: column;
     padding-top: 10vw;
     color: white;
-    background-image: url(/storage/imgs/fondo1.jpg);
-    background-size: contain;
+    background-image: url("../storage/imgs/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 5vw;
     height:72vw;
     box-shadow: -1px 1px 10px 0px var(--color-1);
@@ -208,7 +209,7 @@ header{
     flex-direction: column;
     padding-top: 10vw;
     color:white;
-    background-image: url(/storage/imgs/footer.jpeg);
+    background-image: url("../storage/imgs/footer.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 4vw;
@@ -318,7 +319,15 @@ header{
     .medio p{
         transition: all 0.5s;
         font-size: 7.5vw;
+        color: var(--color-4)
     }
+
+    .arriba img{
+        box-shadow: -0.5px 1px 20px 10px var(--color-4);
+        border-radius: 1vw;
+        transition: all 0.5s;
+    }
+    
  }
 
  .b{
@@ -337,6 +346,13 @@ header{
 
     .medio p{
         font-size: 7.5vw;
+        transition: all 0.5s;
+        color: var(--color-4)
+    }
+
+    .arriba img{
+        box-shadow: -0.5px 1px 20px 10px var(--color-4);
+        border-radius: 1vw;
         transition: all 0.5s;
     }
  }
